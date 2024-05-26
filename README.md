@@ -100,6 +100,19 @@ This boilerplate uses the following libraries:
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [React Native Config](https://www.npmjs.com/package/react-native-config)
+
+## API Configuration
+
+The API configuration is stored in the `src/redux/api/api.ts` file. You can change the API URL in .env and add new endpoints to the configuration. https://redux-toolkit.js.org/rtk-query/overview for more information.
+
+
+## Features to Add
+
+- Redux persist for storing the state
+- Storybook for component development and testing
+- Add e2e testing with Detox or Appium
+- add a script to generate new components, screens etc. with a single command (e.g. `yarn create:component NewComponent`)
 
 ## Contributing
 
