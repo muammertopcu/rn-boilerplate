@@ -36,10 +36,7 @@
     "template",
     "template.config.js",
     "README.md",
-    "LICENSE",
-    "CHANGELOG.md",
-    "CONTRIBUTING.md",
-    "SECURITY.md"
+    "LICENSE"
   ],
   "engines": {
     "node": ">=18"
