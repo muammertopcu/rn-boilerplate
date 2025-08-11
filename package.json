@@ -29,6 +29,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "release:patch": "npm version patch && git push origin main --tags",
+    "release:minor": "npm version minor && git push origin main --tags",
+    "release:major": "npm version major && git push origin main --tags"
+  },
   "peerDependencies": {
     "react-native": ">=0.78.0"
   }
