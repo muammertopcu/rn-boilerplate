@@ -1,0 +1,16 @@
+# Development files
+.git
+.gitignore
+.DS_Store
+node_modules
+npm-debug.log*
+
+# IDE
+.vscode
+.idea
+
+# OS
+Thumbs.db
+
+# Build artifacts
+*.tgz

@@ -1,6 +1,14 @@
-# React Native Boilerplate
+# React Native Boilerplate Template
 
-This project is a boilerplate created for a quick start with React Native. It includes basic configurations and helps you save time when creating new projects.
+This project is a React Native template for creating new projects with a solid boilerplate structure. It includes modern development practices and commonly used libraries.
+
+## Quick Start
+
+Create a new React Native project using this template:
+
+```bash
+npx @react-native-community/cli init MyApp --template @mtopcu/rn-boilerplate
+```
 
 ## Table of Contents
 
@@ -33,8 +41,8 @@ Make sure you have the following tools installed on your system before running t
 1. Create a new React Native project using the following command:
 
 ```sh
- npx react-native init MyApp --template https://github.com/muammertopcu/react-native-boilerplate
- ```
+npx @react-native-community/cli init MyApp --template @mtopcu/rn-boilerplate
+```
 
 2. Navigate to the project directory:
 
@@ -105,7 +113,6 @@ This boilerplate uses the following libraries:
 ## API Configuration
 
 The API configuration is stored in the `src/redux/api/api.ts` file. You can change the API URL in .env and add new endpoints to the configuration. https://redux-toolkit.js.org/rtk-query/overview for more information.
-
 
 ## Features to Add
 

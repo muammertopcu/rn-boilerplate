@@ -1,0 +1,35 @@
+{
+  "name": "@mtopcu/rn-boilerplate",
+  "version": "0.1.1",
+  "description": "React Native project template (boilerplate) for init --template usage.",
+  "keywords": [
+    "react-native",
+    "template",
+    "react-native-template",
+    "boilerplate",
+    "react-native-boilerplate",
+    "rn-boilerplate",
+    "@mtopcu/rn-boilerplate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muammertopcu/react-native-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": "Muammer Topcu",
+  "files": [
+    "template",
+    "template.config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.78.0"
+  }
+}
