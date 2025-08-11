@@ -1,8 +1,32 @@
-# React Native Boilerplate Template
+# 🚀 React Native Boilerplate Template
 
-This project is a React Native template for creating new projects with a solid boilerplate structure. It includes modern development practices and commonly used libraries.
+[![NPM Version](https://img.shields.io/npm/v/@mtopcu/rn-boilerplate)](https://www.npmjs.com/package/@mtopcu/rn-boilerplate)
+[![Downloads](https://img.shields.io/npm/dm/@mtopcu/rn-boilerplate)](https://www.npmjs.com/package/@mtopcu/rn-boilerplate)
+[![License](https://img.shields.io/npm/l/@mtopcu/rn-boilerplate)](https://github.com/muammertopcu/rn-boilerplate/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/muammertopcu/rn-boilerplate)](https://github.com/muammertopcu/rn-boilerplate)
 
-## Quick Start
+A modern, production-ready React Native template that provides a solid foundation for your mobile app development. Built with industry best practices and the latest tools.
+
+<div align="center">
+
+### 🛠️ Built With
+
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![React Navigation](https://img.shields.io/badge/React_Navigation-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
+![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
+![Metro](https://img.shields.io/badge/Metro-EF4242?style=for-the-badge&logo=metro&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+</div>
+
+## ⚡ Quick Start
 
 Create a new React Native project using this template:
 
@@ -19,12 +43,18 @@ npx @react-native-community/cli init MyApp --template @mtopcu/rn-boilerplate
 - [Libraries](#libraries)
 - [Contributing](#contributing)
 
-## Features
+## 🎯 Features
 
-- Navigation with **React Navigation**
-- State management with **Redux**
-- HTTP requests with **RTK Query**
-- Unit testing with **Jest**
+- 🏗️ **Modern Architecture**: Built with Redux Toolkit and RTK Query
+- 🧭 **Navigation**: React Navigation v6 with type safety
+- 🎨 **TypeScript**: Full TypeScript support for better development experience
+- 🧪 **Testing**: Jest and React Native Testing Library setup
+- 📱 **Cross-platform**: iOS and Android support
+- 🔧 **Developer Tools**: ESLint, Prettier, and pre-commit hooks
+- 🚀 **Production Ready**: Optimized for deployment
+- 📦 **State Management**: Redux Toolkit with async thunks
+- 🌐 **API Integration**: RTK Query for efficient data fetching
+- 🔒 **Type Safety**: Comprehensive TypeScript configuration
 
 ## Installation
 

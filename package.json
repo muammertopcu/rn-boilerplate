@@ -1,27 +1,45 @@
 {
   "name": "@mtopcu/rn-boilerplate",
   "version": "0.1.5",
-  "description": "React Native project template (boilerplate) for init --template usage.",
+  "description": "🚀 Modern React Native boilerplate with Redux Toolkit, RTK Query, React Navigation, TypeScript, and comprehensive testing setup. Perfect starter template for production-ready apps.",
   "keywords": [
     "react-native",
-    "template",
     "react-native-template",
+    "template",
     "boilerplate",
+    "redux-toolkit",
+    "rtk-query",
+    "react-navigation",
+    "typescript",
+    "jest",
+    "eslint",
+    "prettier",
+    "starter",
+    "mobile-app",
+    "ios",
+    "android",
     "react-native-boilerplate",
-    "rn-boilerplate",
-    "@mtopcu/rn-boilerplate"
+    "modern",
+    "production-ready"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muammertopcu/react-native-boilerplate.git"
+    "url": "git+https://github.com/muammertopcu/rn-boilerplate.git"
   },
+  "bugs": {
+    "url": "https://github.com/muammertopcu/rn-boilerplate/issues"
+  },
+  "homepage": "https://github.com/muammertopcu/rn-boilerplate#readme",
   "license": "MIT",
   "author": "Muammer Topcu",
   "files": [
     "template",
     "template.config.js",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md"
   ],
   "engines": {
     "node": ">=18"
