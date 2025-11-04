@@ -1,6 +1,6 @@
 {
   "name": "@mtopcu/rn-boilerplate",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "🚀 Modern React Native boilerplate with Redux Toolkit, RTK Query, React Navigation, TypeScript, and comprehensive testing setup. Perfect starter template for production-ready apps.",
   "keywords": [
     "react-native",
