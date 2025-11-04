@@ -1,6 +1,5 @@
-import React from 'react';
-import Router from './router/Router.tsx';
-import ReduxProvider from './redux/ReduxProvider.tsx';
+import { Router } from '@/router';
+import { ReduxProvider } from '@/provider';
 
 function App(): React.JSX.Element {
   return (

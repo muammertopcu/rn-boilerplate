@@ -101,55 +101,78 @@ This boilerplate allows you to quickly add new features and extend the existing 
 ## Project Structure
 
 ```
-src
-├── components
-│   ├── Screen
-│   │   ├── Screen.tsx
-│   │   └── ...
-│   └── ...
-├── redux
-│   ├── api
-│   │   ├── api.ts
-│   │   └── ...
-│   ├── slices
-│   │   ├── authSlice.ts
-│   │   └── ...
-│   └── store.ts
-├── router
+src/
+├── App.tsx
+├── components/
+│   └── index.ts
+├── provider/
+│   ├── ReduxProvider.tsx
+│   └── index.ts
+├── router/
 │   ├── Router.tsx
-│   └── ...
-├── screens
-│   ├── Home
-│   │   ├── Home.tsx
-│   │   └── ...
-│   └── ...
-└── App.tsx
+│   ├── index.ts
+│   └── Navigators/
+│       ├── MainNavigator.tsx
+│       └── index.ts
+├── screens/
+│   ├── HomeScreen/
+│   │   ├── HomeScreen.tsx
+│   │   ├── HomeScreen.test.ts
+│   │   └── index.tsx
+│   └── index.ts
+├── services/
+│   ├── api.ts
+│   ├── baseQuery.ts
+│   └── index.ts
+├── store/
+│   ├── store.ts
+│   ├── index.ts
+│   └── slices/
+│       ├── authSlice.ts
+│       └── index.ts
+└── ...
 ```
 
-## Libraries
+## 📚 Libraries & Tools
 
-This boilerplate uses the following libraries:
+### Core Dependencies
 
-- [React Navigation](https://reactnavigation.org/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
-- [Jest](https://jestjs.io/)
-- [React Native Testing Library](https://callstack.github.io/react-native-testing-library/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [React Native Config](https://www.npmjs.com/package/react-native-config)
+- **[React Navigation](https://reactnavigation.org/)** - Type-safe navigation for React Native
+- **[Redux Toolkit](https://redux-toolkit.js.org/)** - Modern Redux state management
+- **[RTK Query](https://redux-toolkit.js.org/rtk-query/overview)** - Powerful data fetching and caching
+
+### Development Tools
+
+- **[TypeScript](https://www.typescriptlang.org/)** - Static type checking for JavaScript
+- **[ESLint](https://eslint.org/)** - Code linting and formatting rules
+- **[Prettier](https://prettier.io/)** - Code formatting
+- **[Jest](https://jestjs.io/)** - JavaScript testing framework
+- **[React Native Testing Library](https://callstack.github.io/react-native-testing-library/)** - Simple testing utilities
+
+### Configuration
+
+- **[React Native Config](https://www.npmjs.com/package/react-native-config)** - Environment variable management
+- **[Metro](https://metrobundler.dev/)** - JavaScript bundler for React Native
+- **[Yarn](https://yarnpkg.com/)** - Package manager with workspaces support
 
 ## API Configuration
 
-The API configuration is stored in the `src/redux/api/api.ts` file. You can change the API URL in .env and add new endpoints to the configuration. https://redux-toolkit.js.org/rtk-query/overview for more information.
+The API configuration is managed through RTK Query and stored in the `src/services/api.ts` file. You can:
 
-## Features to Add
+- Change the API base URL in your environment configuration
+- Add new endpoints to the API slice
+- Configure custom base queries in `src/services/baseQuery.ts`
+  For more information, visit the [RTK Query documentation](https://redux-toolkit.js.org/rtk-query/overview).
 
-- Redux persist for storing the state
-- Storybook for component development and testing
-- Add e2e testing with Detox or Appium
-- add a script to generate new components, screens etc. with a single command (e.g. `yarn create:component NewComponent`)
+## Roadmap & Future Features
+
+- 🔄 **Redux Persist** - State persistence for better user experience
+- 📚 **Storybook** - Component development and testing environment
+- 🧪 **E2E Testing** - End-to-end testing with Detox or Appium
+- 🤖 **Code Generation** - Scripts to generate components, screens, and slices
+- 🌙 **Dark Mode** - Theme switching support
+- 🌍 **Internationalization** - Multi-language support
+- 📱 **Push Notifications** - Firebase/native push notification setup
 
 ## Contributing
 
