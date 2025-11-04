@@ -80,13 +80,21 @@ npx @react-native-community/cli init MyApp --template @mtopcu/rn-boilerplate
 cd MyApp
 ```
 
-3. Start the Metro server:
+3. Set up environment configuration:
+
+```sh
+cp .env-example .env
+```
+
+4. Update the `.env` file with your configuration values.
+
+5. Start the Metro server:
 
 ```sh
 npx react-native start
 ```
 
-4. Run the project on an emulator or a physical device:
+6. Run the project on an emulator or a physical device:
 
 ```sh
 npx react-native run-android
